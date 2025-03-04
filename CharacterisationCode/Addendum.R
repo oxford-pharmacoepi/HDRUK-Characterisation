@@ -2,7 +2,7 @@ start_time <- Sys.time()
 outputFolder <-  here::here("Results")
 
 logfile <- file.path( paste0(outputFolder, 
-                             "/log_addendum", dbName, "_", format(Sys.time(), "%d_%m_%Y_%H_%M_%S"),".txt"
+                             "/log_addendum_", dbName, "_", format(Sys.time(), "%d_%m_%Y_%H_%M_%S"),".txt"
 ))
 
 log_message <- function(message) {

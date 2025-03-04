@@ -17,7 +17,7 @@ tableName <- c("observation_period", "visit_occurrence", "condition_occurrence",
                "device_exposure", "measurement" , "observation", "death")
 sex <- TRUE # FALSE
 ageGroup <- list(c(0,19), c(20, 39),c(40, 59), c(60, 79), c(80, Inf) ) 
-ageGroup <- omopgenerics::validateAgeGroupArgument(ageGroup, ageGroupName = "")[[1]]
+
 dateRange <- as.Date(c("2012-01-01", NA))
 
 # Snapshot
