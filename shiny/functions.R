@@ -425,6 +425,7 @@ formatColumn <- function(result, col) {
   }
   return(result)
 }
+
 plotInObservationLocal <- function(result,
                                    facet = NULL,
                                    colour = NULL) {
